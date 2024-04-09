@@ -17,12 +17,13 @@ Using the slicing concept rotate the list
 print the output usring print statement
 
 ## Program:
+```
 def circulate():
     a=eval(input())
     n=eval(input())
     b=a[n:]+a[:n]
     print("After circulating the values are:",b)
-
+```
 ## Output:
 ![Screenshot 2024-04-09 133028](https://github.com/Keerthika23013559/Circulate-the-values-of-N-variables/assets/162658262/9517228a-be07-40bc-ade3-34e67636ac93)
 
